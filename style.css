@@ -1,1 +1,175 @@
+h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #94a3b8;
+    margin-bottom: 25px;
+}
+
+.score-board {
+    display: flex;
+    justify-content: space-around;
+    background: #334155;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.score h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.score span {
+    font-size: 30px;
+    font-weight: bold;
+    color: #38bdf8;
+}
+
+.game-result {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    margin-bottom: 25px;
+}.player-choice,
+.computer-choice {
+    flex: 1;
+    background: #334155;
+    padding: 15px 5px;
+    border-radius: 12px;
+}
+
+.game-result h3 {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.game-result div div {
+    font-size: 40px;
+}
+
+#result {
+    font-size: 22px;
+    margin: 20px 0;
+    color: #facc15;
+}
+
+.instruction {
+    color: #94a3b8;
+    margin-bottom: 15px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}player-choice,
+.computer-choice {
+    flex: 1;
+    background: #334155;
+    padding: 15px 5px;
+    border-radius: 12px;
+}
+
+.game-result h3 {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.game-result div div {
+    font-size: 40px;
+}
+
+#result {
+    font-size: 22px;
+    margin: 20px 0;
+    color: #facc15;
+}
+
+.instruction {
+    color: #94a3b8;
+    margin-bottom: 15px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}.choice-btn {
+    flex: 1;
+    padding: 15px 5px;
+    border: 2px solid #475569;
+    border-radius: 12px;
+    background: #334155;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.choice-btn span {
+    display: block;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.choice-btn:hover {
+    background: #2563eb;
+    border-color: #60a5fa;
+}
+
+.reset-btn {
+    width: 100%;
+    padding: 13px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 10px;
+    background: #facc15;
+    color: #1e293b;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.reset-btn:hover {
+    background: #eab308;
+}choice-btn {
+    flex: 1;
+    padding: 15px 5px;
+    border: 2px solid #475569;
+    border-radius: 12px;
+    background: #334155;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.choice-btn span {
+    display: block;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.choice-btn:hover {
+    background: #2563eb;
+    border-color: #60a5fa;
+}
+
+.reset-btn {
+    width: 100%;
+    padding: 13px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 10px;
+    background: #facc15;
+    color: #1e293b;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.reset-btn:hover {
+    background: #eab308;
+}
 

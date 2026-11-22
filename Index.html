@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gunting Batu Kertas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Gunting Batu Kertas</h1>
+        <p class="subtitle">Ayo bermain melawan komputer!</p>
+
+        <div class="score-board">
+
+            <div class="score">
+                <h3>Kamu</h3>
+                <span id="player-score">0</span>
+            </div>
+
+            <div class="score">
+                <h3>Komputer</h3>
+                <span id="computer-score">0</span>
+            </div>
+
+        </div>
+
+        <div class="game-result">
+
+            <div class="player-choice">
+                <h3>Pilihan Kamu</h3>
+                <div id="player-choice">❓</div>
+            </div>
+
+            <div class="computer-choice">
+                <h3>Pilihan Komputer</h3>
+                <div id="computer-choice">❓</div>
+            </div>
+
+        </div>
+
+        <h2 id="result">Siap Bermain?</h2>
+
+        <p class="instruction">Pilih salah satu:</p>
+
+        <div class="choices">
+
+            <button class="choice-btn" id="batu">
+                ✊
+                <span>Batu</span>
+            </button>
+
+            <button class="choice-btn" id="kertas">
+                ✋
+                <span>Kertas</span>
+            </button>
+
+            <button class="choice-btn" id="gunting">
+                ✌️
+                <span>Gunting</span>
+            </button>
+
+        </div>
+
+        <button class="reset-btn" id="reset">
+            Main Ulang
+        </button>
+
+    </div>
+    <script type="module" src="js/main.js"></script>
+
+</body>
+</html>
